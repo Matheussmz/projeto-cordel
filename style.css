@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Passion +One & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Fredoka +One & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Fredoka :wght@700 & display=swap');
+:root{
+    --fonte-normal:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-destaque1:'Passion One', cursiva;
+    --fonte-destaque2:'Sriracha', cursiva;
+    --fonte-destaque3: 'Fredoka One', cursiva;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    background-color: rgb(221, 219, 219);
+    min-height: 100vh;
+    font-family: var(--fonte-normal);
+
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+header > h1{
+    font-family: var(--fonte-destaque1);
+    text-align: center;
+    padding-top: 25px;
+    font-variant: small-caps ; 
+}
+header > p{
+    padding-bottom: 50px;
+}
+header > a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    color:gray;
+}
+.normal{
+    font-family: var(--fonte-destaque2);
+}
+.imagem{
+    color: white;
+    font-family: var(--fonte-destaque1);
+    box-shadow: inset 6px 6px 13px 0px rgb(46, 45, 45);
+}
+.imagem>p {
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 30px;
+    width:250px;
+    font-family: var(--fonte-destaque1);
+    font-size: 20px;
+    margin: 0px;
+    text-shadow: 1px 1px 0px black;
+}
+section {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-family: var(--fonte-destaque2);
+    
+}
+section > p{
+    margin: 10px;
+    font-size: 20px;
+    padding: 50px;
+    
+}
+
+#flor{
+    background-color: gray;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    padding:40px 20px 40px 0px;
+    
+}
+#livro{
+    background-color: gray;
+    background-image:url(imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:40px 20px 40px 0px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer  a{
+    color: white;
+    text-decoration: none;
+}
+
